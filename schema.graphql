@@ -1,0 +1,13 @@
+type Block @entity {
+  id: ID!
+  number: BigInt! @index @unique
+  timestamp: BigInt! @index
+  parentHash: String
+  stateRoot: String!
+  extrinsicsicRoot: String!
+  specName: String!
+  specVersion: Int! @index
+  implName: String!
+  implVersion: Int!
+  validator: String
+}
