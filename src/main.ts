@@ -12,13 +12,13 @@ const blocksHandler = async (ctx: ProcessorContext<Store>) => {
         number: BigInt(block.header.height),
         parentHash: block.header.parentHash,
         timestamp: BigInt(block.header.timestamp ?? 0),
-        extrinsicsicRoot: block.header.extrinsicsRoot,
+        extrinsicsRoot: block.header.extrinsicsRoot,
         specName: block.header.specName,
         specVersion: block.header.specVersion,
         implName: block.header.implName,
         implVersion: block.header.implVersion,
         stateRoot: block.header.stateRoot,
-        validator: block.header.validator ? block.header.validator : undefined,
+        validator: block.header.validator || undefined,
       }),
     );
   }

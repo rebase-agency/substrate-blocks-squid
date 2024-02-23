@@ -63,7 +63,3 @@ export type Event = _Event<Fields>;
 export type Extrinsic = _Extrinsic<Fields>;
 
 export type ProcessorContext<Store> = DataHandlerContext<Store, Fields>;
-function parseInt(SUBSQUID_GATEWAY_REQUEST_TIMEOUT: string): number | undefined {
-    throw new Error('Function not implemented.');
-}
-
