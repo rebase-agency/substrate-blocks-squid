@@ -4,7 +4,7 @@ type Block @entity {
   timestamp: BigInt! @index
   parentHash: String
   stateRoot: String!
-  extrinsicsicRoot: String!
+  extrinsicsRoot: String!
   specName: String!
   specVersion: Int! @index
   implName: String!

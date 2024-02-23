@@ -25,7 +25,7 @@ export class Block {
     stateRoot!: string
 
     @Column_("text", {nullable: false})
-    extrinsicsicRoot!: string
+    extrinsicsRoot!: string
 
     @Column_("text", {nullable: false})
     specName!: string
