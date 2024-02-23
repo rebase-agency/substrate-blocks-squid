@@ -18,7 +18,7 @@ const blocksHandler = async (ctx: ProcessorContext<Store>) => {
         implName: block.header.implName,
         implVersion: block.header.implVersion,
         stateRoot: block.header.stateRoot,
-        validator: block.header.validator ? block.header.validator : undefined,
+        validator: block.header.validator || undefined,
       }),
     );
   }
