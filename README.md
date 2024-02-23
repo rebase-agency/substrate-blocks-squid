@@ -1,11 +1,11 @@
 # Substrate Blocks Squid
 
-🚀 Blazing fast* and simple real-time blocks indexer for EVM based chains with GraphQL API available out of the box which
+🚀 Blazing fast* and simple real-time blocks indexer for Substrate based chains with GraphQL API available out of the box which
 can be quickly configured with environment variables and deployed anywhere with Docker. Details about deployment and
 configuration will be described soon.
 
-&ast; – the maximum indexing speed can be reached with Subsquid Gateways. The list of supported EVM chains can be found
-[here](https://docs.subsquid.io/subsquid-network/reference/evm-networks).
+&ast; – the maximum indexing speed can be reached with Subsquid Gateways. The list of supported Substrate chains can be found
+[here](https://docs.subsquid.io/subsquid-network/reference/substrate-networks/).
 
 More information about Squids and Subsquid protocol can be found in the [offical documentation](https://docs.subsquid.io).
 
