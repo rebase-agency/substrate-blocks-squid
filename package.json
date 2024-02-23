@@ -2,7 +2,7 @@
   "name": "substrate-blocks-squid",
   "description": "Blocks indexer for Substrate based chains",
   "version": "1.0.0",
-  "repository": "https://github.com/rebase-agency/evm-blocks-squid",
+  "repository": "https://github.com/rebase-agency/substrate-blocks-squid",
   "private": true,
   "license": "MIT",
   "author": {
