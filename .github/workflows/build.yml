@@ -1,0 +1,17 @@
+name: Build project
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Build project
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.11.0'
+      - run: npm ci
+      - run: npm run build
